@@ -1,0 +1,96 @@
+\usepackage{rotating,graphics,psfrag,epsfig,amssymb,amsmath, subfigure, amsxtra, amsthm, color}
+\usepackage{fancyvrb}
+\oddsidemargin=-0.25in
+\topmargin= -0.5in
+\textwidth=7.0in
+\textheight=9in
+
+\usepackage{listings}
+\lstdefinelanguage{maple}
+	{morekeywords={true, false, try, catch, return, break, error, 
+	               module, export, local, option, in, use,
+                 and, or, not, xor, xnor,
+                 if, then, elif, else, fi,
+                 while, for, from, by, to, do, od,
+                 proc, nargs, local, global, end, NULL}}
+\lstset{language=maple,numbers=left,basicstyle=\footnotesize,numberstyle=\tiny, breakatwhitespace=false,frame=single,morecomment=[l]{\#},stringstyle=\ttfamily}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{MapleRed}{rgb}{1,0,0}
+\definecolor{MapleBlue}{rgb}{0,0,1}
+\definecolor{MaplePink}{rgb}{1,0,1}
+
+%\definecolor{MapleRed}{rgb}{0,0,0}
+%\definecolor{MapleBlue}{rgb}{0,0,0}
+
+\renewcommand{\arraystretch}{1.25}
+
+%\pagestyle{headings}
+
+%\sloppy
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem*{notation}{Notation}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+\newtheorem{question}{Question}
+\newtheorem{problem}{Problem}
+
+\newcommand{\st}{\, \big{|} \,}
+
+\newcommand{\union}{\cup}
+\newcommand{\intrsc}{\cap}
+
+\newcommand{\brac}[1]{\left( #1 \right)}
+\newcommand{\ideal}[1]{\left< #1 \right>}
+\newcommand{\cbrac}[1]{\left\{ #1 \right\}}
+\newcommand{\sbrac}[1]{\left[ #1 \right]}
+
+\newcommand{\mvar}{\textbf{mvar}}
+\newcommand{\lcoeff}{\textbf{lcoeff}}
+\newcommand{\init}{\textbf{init}}
+\newcommand{\Ass}{\textbf{Ass}}
+\renewcommand{\deg}{\textbf{deg}}
+
+\renewcommand{\implies}{\Rightarrow}
+
+\newcommand{\V}{\mathbf{V}}
+
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\M}{\mathbf{M}}
+\newcommand{\A}{\mathbf{A}}
+\newcommand{\B}{\mathbf{B}}
+\newcommand{\C}{\mathbf{C}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\0}{\mathbf{0}}
+\newcommand{\II}{\mathbf{I}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\FF}{\mathbf{F}}
+\newcommand{\JJ}{\mathbf{J}}
+\newcommand{\XX}{\mathbf{X}}
+\newcommand{\PP}{\mathbf{P}}
+
+
+\newcommand{\pdiff}[2]{\frac{\partial #1}{\partial #2}}
+
+
+\renewcommand{\mod}{\text{ mod }}
+\newcommand{\Mod}{\hspace{2mm}\mod}
+
+\newcommand{\rem}{\text{ rem }}
+\newcommand{\quo}{\text{ quo }}
+\renewcommand{\div}{\text{ div }}
+\newcommand{\MM}{\textsf{M}}
+
+
+
+
